@@ -1,0 +1,27 @@
+:root {
+    --gray: gray;
+    --white: #DCDCE5;
+    --sm: 24px;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    font-family: Roboto, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: var(--sm);
+    background-color: var(--white);
+    align-items: center;
+
+}
+
+.boton-click {
+    width: 30px;
+}
+
+button:hover {
+    background-color: var(--gray);
+    color: var(--orange);
+}

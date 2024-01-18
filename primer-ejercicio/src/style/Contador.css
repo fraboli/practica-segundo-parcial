@@ -1,0 +1,14 @@
+:root{
+    --lg: 160px;
+    --gray: #DCDCE5;
+    --orange:  #FF872C;
+}
+.principal{
+    background-color: #FF872C;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
